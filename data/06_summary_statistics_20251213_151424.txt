@@ -1,0 +1,26 @@
+================================================================================
+SENTIMENT ANALYSIS PROJECT - SUMMARY STATISTICS
+================================================================================
+
+Export Date: 2025-12-13 15:14:24
+
+DATASET SIZES:
+--------------------------------------------------------------------------------
+Original Dataset (Cleaned):            40,607 rows
+Balanced Dataset:                       2,775 rows
+Augmented Dataset:                      8,325 rows
+  - Original Data:                      2,775 rows
+  - Augmented Data:                     5,550 rows
+
+MODEL PERFORMANCE:
+--------------------------------------------------------------------------------
+TF-IDF Only                         Accuracy: 0.6378 (63.78%)
+TF-IDF + Features                   Accuracy: 0.6414 (64.14%)
+TF-IDF + Features + Augmentation    Accuracy: 0.8571 (85.71%)
+Fine-Tuned Model                    Accuracy: 0.9532 (95.32%)
+
+BEST MODEL: Fine-Tuned Model
+Best Accuracy: 0.9532 (95.32%)
+Total Improvement: 49.44%
+
+================================================================================

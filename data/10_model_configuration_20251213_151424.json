@@ -1,0 +1,39 @@
+{
+  "Model": {
+    "Type": "Support Vector Machine (SVM)",
+    "Kernel": "linear",
+    "Decision_Function_Shape": "ovr",
+    "Random_State": 42
+  },
+  "Feature_Engineering": {
+    "TF_IDF": {
+      "Max_Features": 5000,
+      "Type": "TfidfVectorizer"
+    },
+    "Additional_Features": {
+      "text_length": "Length of cleaned text",
+      "word_count": "Number of words",
+      "punctuation_count": "Count of !, ?, .",
+      "capitalization_count": "Count of uppercase letters"
+    }
+  },
+  "Data_Processing": {
+    "Balancing_Method": "SMOTE-like resampling",
+    "Augmentation_Method": "Synonym-based text augmentation",
+    "Train_Test_Split": "80-20",
+    "Scaling": "StandardScaler for normalized features"
+  },
+  "Performance": {
+    "Test_Accuracy": 0.9621621621621622,
+    "Test_Precision": 0.9621056899339784,
+    "Test_Recall": 0.9621621621621622,
+    "Test_F1_Score": 0.9620719009221229
+  },
+  "Dataset_Info": {
+    "Original_Size": 40607,
+    "Balanced_Size": 2775,
+    "Augmented_Size": 8325,
+    "Training_Size": 6660,
+    "Testing_Size": 1665
+  }
+}
